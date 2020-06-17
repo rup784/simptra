@@ -1,0 +1,543 @@
+            @font-face {
+                font-family: Montserrat-Black;
+                src: url(../style/fonts/Montserrat-Black.ttf);
+            }
+            
+            @font-face {
+                font-family: Montserrat-BlackItalic;
+                src: url(../style/fonts/Montserrat-BlackItalic.ttf);
+            }
+            
+            @font-face {
+                font-family: Montserrat-Bold;
+                src: url(../style/fonts/Montserrat-Bold.ttf);
+            }
+            
+            @font-face {
+                font-family: Montserrat-BoldItalic;
+                src: url(../style/fonts/Montserrat-BoldItalic.ttf);
+            }
+            
+            @font-face {
+                font-family: Montserrat-ExtraBold;
+                src: url(../style/fonts/Montserrat-ExtraBold.ttf);
+            }
+            
+            @font-face {
+                font-family: Montserrat-ExtraBoldItalic;
+                src: url(../style/fonts/Montserrat-ExtraBoldItalic.ttf);
+            }
+            
+            @font-face {
+                font-family: Montserrat-ExtraLight;
+                src: url(../style/fonts/Montserrat-ExtraLight.ttf);
+            }
+            
+            @font-face {
+                font-family: Montserrat-ExtraLightItalic;
+                src: url(../style/fonts/Montserrat-ExtraLightItalic.ttf);
+            }
+            
+            @font-face {
+                font-family: Montserrat-Italic;
+                src: url(../style/fonts/Montserrat-Italic.ttf);
+            }
+            
+            @font-face {
+                font-family: Montserrat-Light;
+                src: url(../style/fonts/Montserrat-Light.ttf);
+            }
+            
+            @font-face {
+                font-family: Montserrat-LightItalic;
+                src: url(../style/fonts/Montserrat-LightItalic.ttf);
+            }
+            
+            @font-face {
+                font-family: Montserrat-Medium;
+                src: url(../style/fonts/Montserrat-Medium.ttf);
+            }
+            
+            @font-face {
+                font-family: Montserrat-MediumItalic;
+                src: url(../style/fonts/Montserrat-MediumItalic.ttf);
+            }
+            
+            @font-face {
+                font-family: Montserrat-Regular;
+                src: url(../style/fonts/Montserrat-Regular.ttf);
+            }
+            
+            @font-face {
+                font-family: Montserrat-SemiBold;
+                src: url(../style/fonts/Montserrat-SemiBold.ttf);
+            }
+            
+            @font-face {
+                font-family: Montserrat-SemiBoldItalic;
+                src: url(../style/fonts/Montserrat-SemiBoldItalic.ttf);
+            }
+            
+            @font-face {
+                font-family: Montserrat-Thin;
+                src: url(../style/fonts/Montserrat-Thin.ttf);
+            }
+            
+            @font-face {
+                font-family: Montserrat-ThinItalic;
+                src: url(../style/fonts/Montserrat-ThinItalic.ttf);
+            }
+            
+            html,
+            body {
+                margin: 0px;
+                padding: 0px;
+                height: 100%;
+                width: 100%;
+            }
+            
+            body h1,
+            body h2,
+            body h3,
+            body h4,
+            body h5,
+            body h6 {
+                font-family: Montserrat-Bold;
+                font-weight: bold;
+            }
+            
+            body p,
+            body span,
+            body a {
+                font-family: Montserrat-Regular;
+                color: black;
+                letter-spacing: 0.1em;
+            }
+            
+            body .simpatra {
+                color: #515c67;
+            }
+            /* navbar style start */
+            /* xl */
+            
+            @media (min-width: 1200px) {
+                .hidden-xl {
+                    display: none;
+                }
+                .visible-xl {
+                    display: block;
+                }
+                .simpatra .display-flex-mdcenter-smblock {
+                    display: flex;
+                    justify-content: center;
+                    width: 100vw !important;
+                }
+                .simpatra .img-bk {
+                    -webkit-clip-path: polygon(0 0, 0 0%, 0% 100%, 270% 0);
+                    clip-path: polygon(0 0, 0 0%, 0% 100%, 270% 0);
+                }
+                .simpatra .img_bottom {
+                    -webkit-clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
+                    clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
+                }
+                .simpatra .head-section {
+                    padding-left: 100px;
+                }
+                .simpatra .head-section h1 {
+                    font-size: 3.5rem;
+                }
+                .simpatra .footer-section h1 {
+                    font-size: 3.5rem;
+                }
+                .simpatra .footer-section .mt-150 {
+                    margin-top: 150px;
+                }
+                .simpatra .head-section p {
+                    font-size: 1.1rem;
+                    line-height: 1.7;
+                }
+            }
+            /* lg */
+            
+            @media (min-width: 992px) and (max-width: 1199px) {
+                .hidden-lg {
+                    display: none;
+                }
+                .visible-lg {
+                    display: block;
+                }
+                .simpatra .display-flex-mdcenter-smblock {
+                    display: flex;
+                    justify-content: center;
+                    width: 100vw !important;
+                }
+                .simpatra .img-bk {
+                    -webkit-clip-path: polygon(0 0, 0 0%, -10% 100%, 175% 0);
+                    clip-path: polygon(0 0, 0 0%, -10% 100%, 175% 0);
+                }
+                .simpatra .img_bottom {
+                    -webkit-clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
+                    clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
+                }
+                .simpatra .head-section {
+                    padding-left: 100px;
+                }
+                .simpatra .head-section h1 {
+                    font-size: 2.8rem;
+                }
+                .simpatra .footer-section h1 {
+                    font-size: 2.8rem;
+                }
+                .simpatra .footer-section .mt-150 {
+                    margin-top: 150px;
+                }
+            }
+            /* md */
+            
+            @media (min-width: 768px) and (max-width: 991px) {
+                .hidden-md {
+                    display: none;
+                }
+                .visible-md {
+                    display: block;
+                }
+                .simpatra .display-flex-mdcenter-smblock {
+                    display: flex;
+                    justify-content: center;
+                    width: 100vw !important;
+                }
+                .simpatra .img-bk {
+                    -webkit-clip-path: none;
+                    clip-path: none;
+                }
+                .simpatra .img_bottom {
+                    -webkit-clip-path: none;
+                    clip-path: none;
+                }
+                .simpatra .head-section {
+                    padding-left: 100px;
+                }
+                .simpatra .section-container {
+                    margin-top: 70px;
+                }
+            }
+            /* sm */
+            
+            @media (min-width: 576px) and (max-width: 767px) {
+                .hidden-sm {
+                    display: none;
+                }
+                .visible-sm {
+                    display: block;
+                }
+                .simpatra .display-flex-mdcenter-smblock {
+                    display: contents;
+                }
+                .simpatra .img-bk {
+                    -webkit-clip-path: none;
+                    clip-path: none;
+                }
+                .simpatra .img_bottom {
+                    -webkit-clip-path: none;
+                    clip-path: none;
+                }
+                .simpatra .product-img {
+                    width: 100%;
+                }
+                .simpatra .section-container {
+                    margin-top: 70px;
+                }
+            }
+            /* xm */
+            
+            @media (max-width: 575px) {
+                .hidden-xs {
+                    display: none;
+                }
+                .visible-xs {
+                    display: block;
+                }
+                .simpatra .display-flex-mdcenter-smblock {
+                    display: contents;
+                }
+                .simpatra .img-bk {
+                    -webkit-clip-path: none;
+                    clip-path: none;
+                }
+                .simpatra .img_bottom {
+                    -webkit-clip-path: none;
+                    clip-path: none;
+                }
+                .simpatra .product-img {
+                    width: 100%;
+                }
+                .simpatra .section-container {
+                    margin-top: 70px;
+                }
+            }
+            
+            *,
+            *:before,
+            *:after {
+                box-sizing: border-box;
+            }
+            
+            .simpatra nav {
+                padding: 20px 0 40px 0;
+                font-size: 12px;
+            }
+            
+            .simpatra nav .navbar-left {
+                float: left;
+                padding: 0px;
+            }
+            
+            .simpatra nav .navbar-right {
+                float: right;
+                padding: 0px;
+            }
+            
+            .simpatra nav ul li {
+                display: inline;
+                padding-left: 15px;
+            }
+            
+            .simpatra nav ul li a {
+                color: #fff;
+                text-decoration: none;
+                font-family: Montserrat-Light;
+            }
+            
+            .simpatra nav ul li a:hover {
+                color: black;
+            }
+            
+            .simpatra .container {
+                margin: auto;
+                width: 80%;
+            }
+            
+            .simpatra .badge {
+                background-color: #a462c5;
+                border-radius: 10px;
+                color: white;
+                display: inline-block;
+                font-size: 12px;
+                line-height: 1;
+                padding: 3px 7px;
+                text-align: center;
+                vertical-align: middle;
+                white-space: nowrap;
+                margin-bottom: 30px;
+            }
+            
+            .simpatra .shopping-cart {
+                margin: 20px 0;
+                float: right;
+                background: white;
+                width: 320px;
+                position: relative;
+                border-radius: 3px;
+                padding: 20px;
+            }
+            
+            .simpatra .shopping-cart .shopping-cart-header {
+                border-bottom: 1px solid #E8E8E8;
+                padding-bottom: 15px;
+            }
+            
+            .simpatra .shopping-cart .shopping-cart-header .shopping-cart-total {
+                float: right;
+            }
+            
+            .simpatra .shopping-cart .shopping-cart-items {
+                padding-top: 20px;
+            }
+            
+            .simpatra .shopping-cart .shopping-cart-items li {
+                margin-bottom: 18px;
+            }
+            
+            .simpatra .shopping-cart .shopping-cart-items img {
+                float: left;
+                margin-right: 12px;
+                width: 50px;
+            }
+            
+            .simpatra .shopping-cart .shopping-cart-items .item-name {
+                display: block;
+                padding-top: 10px;
+                font-size: 16px;
+            }
+            
+            .simpatra .shopping-cart .shopping-cart-items .item-price {
+                color: #6394F8;
+                margin-right: 8px;
+            }
+            
+            .simpatra .shopping-cart .shopping-cart-items .item-quantity {
+                color: #ABB0BE;
+            }
+            
+            .simpatra .shopping-cart:after {
+                bottom: 100%;
+                left: 89%;
+                border: solid transparent;
+                content: " ";
+                height: 0;
+                width: 0;
+                position: absolute;
+                pointer-events: none;
+                border-bottom-color: white;
+                border-width: 8px;
+                margin-left: -8px;
+            }
+            
+            .simpatra .cart-icon {
+                color: #515783;
+                font-size: 24px;
+                margin-right: 7px;
+                float: left;
+            }
+            
+            .simpatra .cart-img {
+                width: 25px;
+                margin-bottom: 15px;
+            }
+            
+            .simpatra .shopping-cart-container {
+                position: absolute;
+                top: 130px;
+                right: 0px;
+                z-index: 1;
+            }
+            
+            .simpatra .button {
+                background: #6394F8;
+                color: white;
+                text-align: center;
+                padding: 12px;
+                text-decoration: none;
+                display: block;
+                border-radius: 3px;
+                font-size: 16px;
+                margin: 25px 0 15px 0;
+            }
+            
+            .simpatra .button:hover {
+                background: #729ef9;
+            }
+            
+            .simpatra .clearfix:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            /* navbar style end */
+            
+            .simpatra .logo {
+                width: 200px;
+                margin: 0px 15px;
+            }
+            
+            .simpatra .sheet {
+                position: absolute;
+                display: flex;
+                width: 100%;
+                top: 0px;
+                left: 0px;
+                height: 100%;
+            }
+            
+            .simpatra .tile {
+                position: relative;
+            }
+            
+            .simpatra .img-bk {
+                width: 100%;
+                height: 650px;
+            }
+            
+            .simpatra .product-img {
+                overflow: hidden;
+            }
+            
+            .simpatra .img-Directory {
+                width: 100%;
+            }
+            
+            .img-DriveTraffic {
+                width: 100%;
+            }
+            
+            .img_bottom {
+                width: 100%;
+                height: 650px;
+            }
+            
+            .simpatra .text-white h1,
+            .simpatra .text-white h2,
+            .simpatra .text-white h3,
+            .simpatra .text-white h4,
+            .simpatra .text-white h5,
+            .simpatra .text-white h6,
+            .simpatra .text-white p,
+            .simpatra .text-white span {
+                color: #fff;
+            }
+            
+            .simpatra .section-container {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            
+            .simpatra .text-lightBlue {
+                font-family: Montserrat-ExtraLight;
+                color: #1e649678
+            }
+            
+            .row.row-flex {
+                display: flex;
+                justify-content: center;
+            }
+            
+            .simpatra .btn {
+                text-decoration: none;
+                color: #fff;
+                background: #7e12e296;
+                padding: 20px 50px;
+                font-family: Montserrat-Bold;
+                border-radius: 0.5rem;
+            }
+            
+            .simpatra .product-btn {
+                text-decoration: none;
+                color: #fff;
+                background: #e26f2b;
+                padding: 10px 25px;
+                font-family: Montserrat-ExtraLight;
+                border-radius: 0.5rem;
+            }
+            
+            .simpatra .orange {
+                color: #e26f2b;
+            }
+            
+            .simpatra .your-class h6 span {
+                font-family: Montserrat-Bold;
+            }
+            
+            .simpatra .font-light {
+                font-family: Montserrat-ExtraLight;
+            }
+            /* font sizing */
+            
+            .simpatra .section-container p {
+                font-size: 0.8rem;
+            }
+            
+            .horizontal-line hr {
+                margin-top: 50px;
+                border-top: 1px dashed #515c67;
+            }
