@@ -46,7 +46,7 @@
                             </nav>
 
                             <div class="shopping-cart-container">
-                                <div class="shopping-cart">
+                                <div class="shopping-cart" style="display: none;">
 
                                     <ul class="shopping-cart-items">
                                         <li class="clearfix">
@@ -71,14 +71,14 @@
                                         </li>
                                     </ul>
 
-                                    <a href="#" class="button">Checkout</a>
+                                    <a href="#" class="button">CHECKOUT</a>
                                 </div>
                             </div>
-
-
-                            <div class="tile text-left text-white head-section" style="margin-top: 130px;">
-                                <h1>Elevate <span class="font-light">Your</span><br> <span class="font-light">Practice</span> Effectively</h1>
-                                <p>Add revenue to your practice. Utilize one platform<br class="visible-xl visible-lg hidden-sm hidden-xs visible-md"> and our technology to take your practice to the next level.<br class="visible-xl visible-lg hidden-sm hidden-xs visible-md">                                    impatra has created marketing tools and packages that<br class="visible-xl visible-lg hidden-sm hidden-xs visible-md"> work for you while you care for your patients.</p>
+                            <div class="container">
+                                <div class="col-12 text-white head-section text-center text-md-left" style="margin-top: 130px;">
+                                    <h1>Elevate <span class="font-light">Your</span><br> <span class="font-light">Practice</span> Effectively</h1>
+                                    <p>Add revenue to your practice. Utilize one platform<br class="visible-xl visible-lg hidden-sm hidden-xs visible-md"> and our technology to take your practice to the next level.<br class="visible-xl visible-lg hidden-sm hidden-xs visible-md">                                        impatra has created marketing tools and packages that<br class="visible-xl visible-lg hidden-sm hidden-xs visible-md"> work for you while you care for your patients.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -86,12 +86,12 @@
             </div>
         </div>
 
-        <div class="container-fluid section-container">
-            <div class="row row-flex">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 display-flex-mdcenter-smblock">
-                    <div class="col-10 col-md-6 d-flex align-items-center justify-content-center justify-content-md-end">
-                        <div class="text-left ml-md-4">
-                            <h1 class="text-lightBlue mb-4">The Power<br> of the Directory</h1>
+        <div class="container section-container">
+            <div class="row">
+                <div class="col-12 display-flex-mdcenter-smblock">
+                    <div class="col-12 col-md-6">
+                        <div class="text-center text-md-left">
+                            <h2 class="text-lightBlue mb-4">The Power<br> of the Directory</h2>
                             <h5>Traffice Source with Paid Advertising</h5>
                             <p>reperio bea et volorio dolenitia verrum quodit et, qua<br class="visible-xl hidden-lg hidden-sm hidden-xs hidden-md"> Lum is maxim aceribus. Duci tem quo blaturi volor alitati</p>
                             <h5>Your Profile: Tell Them Who You Are!</h5>
@@ -101,36 +101,41 @@
                         </div>
                     </div>
 
-                    <div class="col-10 col-md-6 d-flex justify-content-center justify-content-md-start">
+                    <div class="col-12 col-md-6">
                         <img class="img-Directory" src="Assets\AdobeStock_183608286.jpeg" alt="Directory">
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="horizontal-line">
+        <div class="container comp-grap-mt">
+            <div class="row main-comp-container"><img src="Assets\Computer_Graphic.png" alt="Computer-img" class="comp-img">
+                <div class="play-icon-img-container"><img src="Assets\images.png" alt="play-icon-img" class="play-icon-img"></div>
+            </div>
+        </div>
+
+        <div class="horizontal-line comp-grph-hr-mt">
             <hr>
         </div>
 
-        <div class="your-class" style="min-height: 500px;">
-            <div class="container-fluid section-container" v-for="cards in magicCards" style="margin: 50px 0px;">
-                <div class="row row-flex">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 display-flex-mdcenter-smblock">
-                        <div class="col-10 col-md-6 d-flex justify-content-center justify-content-md-end">
+        <div class="container your-class" style="min-height: 500px;">
+            <div class="section-container" v-for="cards in magicCards" style="margin: 50px 0px;">
+                <div class="row">
+                    <div class="col-12 display-flex-mdcenter-smblock">
+                        <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
                             <img class="product-img" :src="cards.images[0].url" alt="orange">
                         </div>
 
-                        <div class="col-10 col-md-6 d-flex align-items-center justify-content-center justify-content-md-start">
-                            <div class="text-left ml-md-5">
-                                <h6><span class="orange">BEST SELLER // </span><span v-html="cards.sku">MRE86731</span></h6>
+                        <div class="col-12 col-md-6">
+                            <div class="text-center text-md-left ml-md-5 mt-5 mt-md-0">
+                                <h6><span class="orange">BEST SELLER // </span><span class="font-bold" v-html="cards.sku">MRE86731</span></h6>
                                 <h6 class="orange" style="margin-bottom: 0px;" v-html="cards.name">Vivacity AWAKEN</h6>
                                 <p v-html="cards.manufacturer">MRE86731 MAKEWAY WELLNESS, INC.</p>
                                 <h6>About the Product</h6>
                                 <p v-html="cards.description">Awaken is based on a super antioxidant Cacao which is blended with specially prepared plant extracts of Panax Ginseng, Cordyceps Mushroom and additional natural metabolic optimizers. Awaken provides exceptional antioxidant
                                     and health benefits, blood sugar stabilization, incredible mood elevating effects and feelings of sustained energy. Get every day started properly with Awaken.</p>
-                                <p>Price: <span v-html="cards.price"></span></p>
+                                <p class="font-bold" style="margin-bottom: 40px;">Price: <span v-html="cards.price"></span>$</p>
                                 <a href="#" class="product-btn">ADD TO CART</a>
-
                             </div>
                         </div>
                     </div>
@@ -138,16 +143,12 @@
             </div>
         </div>
 
-        <div class="horizontal-line">
-            <hr>
-        </div>
-
-        <div class="container-fluid section-container">
-            <div class="row row-flex">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 display-flex-mdcenter-smblock">
-                    <div class="col-10 col-md-6 d-flex align-items-center justify-content-center justify-content-md-end">
-                        <div class="text-left ml-md-4">
-                            <h1 class="text-lightBlue mb-4">Want to Drive Traffic<br class="visible-xl hidden-lg hidden-sm hidden-xs hidden-md"> to Your Practice?</h1>
+        <div class="container section-container">
+            <div class="row">
+                <div class="col-12 display-flex-mdcenter-smblock">
+                    <div class="col-12 col-md-6">
+                        <div class="text-center text-md-left">
+                            <h2 class="text-lightBlue mb-4">Want to Drive Traffic<br class="visible-xl hidden-lg hidden-sm hidden-xs hidden-md"> to Your Practice?</h2>
                             <h5> Generate Traffic</h5>
                             <p>reperio bea et volorio dolenitia verrum quodit et, qua<br class="visible-xl hidden-lg hidden-sm hidden-xs hidden-md"> Lum is maxim aceribus. Duci tem quo blaturi volor alitati</p>
                             <h5>Utilize Our Bots</h5>
@@ -157,7 +158,7 @@
                         </div>
                     </div>
 
-                    <div class="col-10 col-md-5 d-flex justify-content-center justify-content-md-start">
+                    <div class="col-12 col-md-6">
                         <img class="img-DriveTraffic" src="Assets\DriveTraffic.png" alt="orange">
                     </div>
                 </div>
@@ -170,7 +171,7 @@
                     <div class="tile">
                         <img class="img_bottom" src="Assets\OrangeBar.jpg " alt="orange ">
                         <div class="sheet footer-section d-flex align-items-center justify-content-center ">
-                            <div class="text-center text-white mt-150">
+                            <div class="text-center text-white mt-bottom">
                                 <h1>Powerful <span class="font-light ">Tools</span><br> <span class="font-light ">that Work</span> for You!</h1>
                                 <h5 style="margin: 20px 0px 25px; ">JOIN TODAY AT $499 MONTHLY. </h5>
                                 <a href="# " class="btn ">GET STARTED</a>

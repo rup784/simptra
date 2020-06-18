@@ -110,7 +110,7 @@
             body span,
             body a {
                 font-family: Montserrat-Regular;
-                color: black;
+                color: #515c67;
                 letter-spacing: 0.1em;
             }
             
@@ -130,7 +130,6 @@
                 .simpatra .display-flex-mdcenter-smblock {
                     display: flex;
                     justify-content: center;
-                    width: 100vw !important;
                 }
                 .simpatra .img-bk {
                     -webkit-clip-path: polygon(0 0, 0 0%, 0% 100%, 270% 0);
@@ -140,21 +139,26 @@
                     -webkit-clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
                     clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
                 }
-                .simpatra .head-section {
-                    padding-left: 100px;
-                }
-                .simpatra .head-section h1 {
-                    font-size: 3.5rem;
-                }
-                .simpatra .footer-section h1 {
-                    font-size: 3.5rem;
-                }
-                .simpatra .footer-section .mt-150 {
+                .simpatra .footer-section .mt-bottom {
                     margin-top: 150px;
                 }
+                .simpatra h1 {
+                    font-size: 58px;
+                }
+                .simpatra h2 {
+                    font-size: 52px;
+                }
                 .simpatra .head-section p {
-                    font-size: 1.1rem;
-                    line-height: 1.7;
+                    font-size: 18px;
+                }
+                .comp-grap-mt {
+                    margin-top: -20vw;
+                }
+                .comp-grph-hr-mt {
+                    margin-top: -13vw;
+                }
+                .simpatra .section-container.drive-container {
+                    margin-top: 70px;
                 }
             }
             /* lg */
@@ -179,17 +183,26 @@
                     -webkit-clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
                     clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
                 }
-                .simpatra .head-section {
-                    padding-left: 100px;
-                }
-                .simpatra .head-section h1 {
-                    font-size: 2.8rem;
-                }
-                .simpatra .footer-section h1 {
-                    font-size: 2.8rem;
-                }
-                .simpatra .footer-section .mt-150 {
+                .simpatra .footer-section .mt-bottom {
                     margin-top: 150px;
+                }
+                .simpatra h1 {
+                    font-size: 42px;
+                }
+                .simpatra h2 {
+                    font-size: 40px;
+                }
+                .simpatra .head-section p {
+                    font-size: 16px;
+                }
+                .comp-grap-mt {
+                    margin-top: -20vw;
+                }
+                .comp-grph-hr-mt {
+                    margin-top: -20vw;
+                }
+                .simpatra .section-container.drive-container {
+                    margin-top: 70px;
                 }
             }
             /* md */
@@ -207,17 +220,32 @@
                     width: 100vw !important;
                 }
                 .simpatra .img-bk {
-                    -webkit-clip-path: none;
-                    clip-path: none;
+                    -webkit-clip-path: polygon(0 0, 0 0%, 0% 100%, 175% 0);
+                    clip-path: polygon(0 0, 0 0%, 0% 100%, 175% 0);
                 }
                 .simpatra .img_bottom {
-                    -webkit-clip-path: none;
-                    clip-path: none;
+                    -webkit-clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
+                    clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
                 }
-                .simpatra .head-section {
-                    padding-left: 100px;
+                .simpatra .footer-section .mt-bottom {
+                    margin-top: 200px;
                 }
-                .simpatra .section-container {
+                .simpatra h1 {
+                    font-size: 36px;
+                }
+                .simpatra h2 {
+                    font-size: 34px;
+                }
+                .simpatra .head-section p {
+                    font-size: 16px;
+                }
+                .comp-grap-mt {
+                    margin-top: -16vw;
+                }
+                .comp-grph-hr-mt {
+                    margin-top: -18vw;
+                }
+                .simpatra .section-container.drive-container {
                     margin-top: 70px;
                 }
             }
@@ -247,6 +275,21 @@
                 .simpatra .section-container {
                     margin-top: 70px;
                 }
+                .simpatra h1 {
+                    font-size: 36px;
+                }
+                .simpatra h2 {
+                    font-size: 34px;
+                }
+                .simpatra .head-section p {
+                    font-size: 16px;
+                }
+                .comp-grap-mt {
+                    margin-top: -30vw;
+                }
+                .comp-grph-hr-mt {
+                    margin-top: -20vw;
+                }
             }
             /* xm */
             
@@ -273,6 +316,21 @@
                 }
                 .simpatra .section-container {
                     margin-top: 70px;
+                }
+                .simpatra h1 {
+                    font-size: 36px;
+                }
+                .simpatra h2 {
+                    font-size: 34px;
+                }
+                .simpatra .head-section p {
+                    font-size: 16px;
+                }
+                .comp-grap-mt {
+                    margin-top: -30vw;
+                }
+                .comp-grph-hr-mt {
+                    margin-top: -20vw;
                 }
             }
             
@@ -310,11 +368,6 @@
             
             .simpatra nav ul li a:hover {
                 color: black;
-            }
-            
-            .simpatra .container {
-                margin: auto;
-                width: 80%;
             }
             
             .simpatra .badge {
@@ -356,6 +409,9 @@
             
             .simpatra .shopping-cart .shopping-cart-items li {
                 margin-bottom: 18px;
+                list-style: none;
+                border-bottom: 1px dashed;
+                padding: 10px 0px;
             }
             
             .simpatra .shopping-cart .shopping-cart-items img {
@@ -368,10 +424,11 @@
                 display: block;
                 padding-top: 10px;
                 font-size: 16px;
+                color: #e26f2b;
             }
             
             .simpatra .shopping-cart .shopping-cart-items .item-price {
-                color: #6394F8;
+                color: #e26f2b;
                 margin-right: 8px;
             }
             
@@ -413,7 +470,7 @@
             }
             
             .simpatra .button {
-                background: #6394F8;
+                background: #e26f2b;
                 color: white;
                 text-align: center;
                 padding: 12px;
@@ -425,7 +482,7 @@
             }
             
             .simpatra .button:hover {
-                background: #729ef9;
+                background: #e26f2b;
             }
             
             .simpatra .clearfix:after {
@@ -460,10 +517,33 @@
             
             .simpatra .product-img {
                 overflow: hidden;
+                height: fit-content;
+                width: auto;
+                padding: 0px 10px;
             }
             
             .simpatra .img-Directory {
                 width: 100%;
+            }
+            
+            .simpatra .comp-img {
+                width: 100%;
+                z-index: 1;
+            }
+            
+            .simpatra .play-icon-img {
+                width: 8vw;
+            }
+            
+            .simpatra .main-comp-container {
+                position: relative;
+            }
+            
+            .simpatra .play-icon-img-container {
+                position: absolute;
+                top: 45%;
+                left: 45%;
+                z-index: 1;
             }
             
             .img-DriveTraffic {
@@ -484,12 +564,6 @@
             .simpatra .text-white p,
             .simpatra .text-white span {
                 color: #fff;
-            }
-            
-            .simpatra .section-container {
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;
             }
             
             .simpatra .text-lightBlue {
@@ -524,7 +598,7 @@
                 color: #e26f2b;
             }
             
-            .simpatra .your-class h6 span {
+            .simpatra .font-bold {
                 font-family: Montserrat-Bold;
             }
             
