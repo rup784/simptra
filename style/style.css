@@ -216,12 +216,11 @@ body .simpatra .row {
     }
     .navbar-container .main-nav {
         display: flex;
-        margin-right: 20px;
+        margin-right: 15px;
         flex-direction: row;
         justify-content: flex-end;
         position: absolute;
-        top: 20px;
-        right: 0px;
+        top: 35px;
     }
     .navbar-container .nav-links {
         margin-left: 40px;
@@ -647,7 +646,7 @@ body .simpatra .row {
 
 .simpatra .logo {
     width: 200px;
-    margin: 0px 15px;
+    margin: 15px 0px 0px 15px;
 }
 
 .simpatra .sheet {
