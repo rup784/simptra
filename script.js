@@ -1,33 +1,36 @@
+'use strict';
+
 var simpatra = new Vue({
     el: '.simpatra',
-    data() {
+    data: function data() {
         return {
             magicCards: []
-        }
+        };
     },
-    created() {
-        this.loadCards()
+    created: function created() {
+        this.loadCards();
     },
-    updated() {
-        this.slickInitiate()
+    updated: function updated() {
+        this.slickInitiate();
     },
     methods: {
-        loadCards: function() {
-            axios.get('https://my-json-server.typicode.com/simpatra/mockapi/products')
-                .then(response => {
-                    const cardData = response.data;
-                    const cardDataLength = cardData.length;
-                    for (let index = 0; index < cardDataLength; index++) {
-                        this.magicCards.push(cardData[index])
-                    }
-                })
+        loadCards: function loadCards() {
+            var _this = this;
+
+            axios.get('https://my-json-server.typicode.com/simpatra/mockapi/products').then(function(response) {
+                var cardData = response.data;
+                var cardDataLength = cardData.length;
+                for (var index = 0; index < cardDataLength; index++) {
+                    _this.magicCards.push(cardData[index]);
+                }
+            });
         },
 
-        cartClick: function(event) {
+        cartClick: function cartClick(event) {
             event.preventDefault();
             $(".shopping-cart").fadeToggle("fast");
         },
-        slickInitiate: function() {
+        slickInitiate: function slickInitiate() {
             $(document).ready(function() {
                 $('.your-class').slick({
                     dots: true,
@@ -42,8 +45,8 @@ var simpatra = new Vue({
         }
     },
     computed: {
-        hasCards: function() {
-            return (this.magicCards.length <= 0)
+        hasCards: function hasCards() {
+            return this.magicCards.length <= 0;
         }
     }
-})
+});
