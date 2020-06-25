@@ -1,632 +1,785 @@
-            @font-face {
-                font-family: Montserrat-Black;
-                src: url(../style/fonts/Montserrat-Black.ttf);
-            }
-            
-            @font-face {
-                font-family: Montserrat-BlackItalic;
-                src: url(../style/fonts/Montserrat-BlackItalic.ttf);
-            }
-            
-            @font-face {
-                font-family: Montserrat-Bold;
-                src: url(../style/fonts/Montserrat-Bold.ttf);
-            }
-            
-            @font-face {
-                font-family: Montserrat-BoldItalic;
-                src: url(../style/fonts/Montserrat-BoldItalic.ttf);
-            }
-            
-            @font-face {
-                font-family: Montserrat-ExtraBold;
-                src: url(../style/fonts/Montserrat-ExtraBold.ttf);
-            }
-            
-            @font-face {
-                font-family: Montserrat-ExtraBoldItalic;
-                src: url(../style/fonts/Montserrat-ExtraBoldItalic.ttf);
-            }
-            
-            @font-face {
-                font-family: Montserrat-ExtraLight;
-                src: url(../style/fonts/Montserrat-ExtraLight.ttf);
-            }
-            
-            @font-face {
-                font-family: Montserrat-ExtraLightItalic;
-                src: url(../style/fonts/Montserrat-ExtraLightItalic.ttf);
-            }
-            
-            @font-face {
-                font-family: Montserrat-Italic;
-                src: url(../style/fonts/Montserrat-Italic.ttf);
-            }
-            
-            @font-face {
-                font-family: Montserrat-Light;
-                src: url(../style/fonts/Montserrat-Light.ttf);
-            }
-            
-            @font-face {
-                font-family: Montserrat-LightItalic;
-                src: url(../style/fonts/Montserrat-LightItalic.ttf);
-            }
-            
-            @font-face {
-                font-family: Montserrat-Medium;
-                src: url(../style/fonts/Montserrat-Medium.ttf);
-            }
-            
-            @font-face {
-                font-family: Montserrat-MediumItalic;
-                src: url(../style/fonts/Montserrat-MediumItalic.ttf);
-            }
-            
-            @font-face {
-                font-family: Montserrat-Regular;
-                src: url(../style/fonts/Montserrat-Regular.ttf);
-            }
-            
-            @font-face {
-                font-family: Montserrat-SemiBold;
-                src: url(../style/fonts/Montserrat-SemiBold.ttf);
-            }
-            
-            @font-face {
-                font-family: Montserrat-SemiBoldItalic;
-                src: url(../style/fonts/Montserrat-SemiBoldItalic.ttf);
-            }
-            
-            @font-face {
-                font-family: Montserrat-Thin;
-                src: url(../style/fonts/Montserrat-Thin.ttf);
-            }
-            
-            @font-face {
-                font-family: Montserrat-ThinItalic;
-                src: url(../style/fonts/Montserrat-ThinItalic.ttf);
-            }
-            
-            html,
-            body {
-                margin: 0px;
-                padding: 0px;
-                height: 100%;
-                width: 100%;
-            }
-            
-            body h1,
-            body h2,
-            body h3,
-            body h4,
-            body h5,
-            body h6 {
-                font-family: Montserrat-Bold;
-                font-weight: bold;
-            }
-            
-            body p,
-            body span,
-            body a {
-                font-family: Montserrat-Regular;
-                color: #515c67;
-                letter-spacing: 0.1em;
-            }
-            
-            body .simpatra {
-                color: #515c67;
-            }
-            
-            body .simpatra .container-fluid {
-                padding: 0px !important;
-            }
-            /* navbar style start */
-            /* xl */
-            
-            @media (min-width: 1200px) {
-                .hidden-xl {
-                    display: none;
-                }
-                .visible-xl {
-                    display: block;
-                }
-                .simpatra .display-flex-mdcenter-smblock {
-                    display: flex;
-                    justify-content: center;
-                }
-                .simpatra .img-bk {
-                    -webkit-clip-path: polygon(0 0, 0 0%, 0% 100%, 270% 0);
-                    clip-path: polygon(0 0, 0 0%, 0% 100%, 270% 0);
-                }
-                .simpatra .img_bottom {
-                    -webkit-clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
-                    clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
-                }
-                .simpatra .footer-section .mt-bottom {
-                    margin-top: 150px;
-                }
-                .simpatra h1 {
-                    font-size: 58px;
-                }
-                .simpatra h2 {
-                    font-size: 52px;
-                }
-                .simpatra .head-section p {
-                    font-size: 18px;
-                }
-                .comp-grap-mt {
-                    margin-top: -20vw;
-                }
-                .comp-grph-hr-mt {
-                    margin-top: -13vw;
-                }
-                .simpatra .section-container.drive-container {
-                    margin-top: 70px;
-                }
-            }
-            /* lg */
-            
-            @media (min-width: 992px) and (max-width: 1199px) {
-                .hidden-lg {
-                    display: none;
-                }
-                .visible-lg {
-                    display: block;
-                }
-                .simpatra .display-flex-mdcenter-smblock {
-                    display: flex;
-                    justify-content: center;
-                    width: 100vw !important;
-                }
-                .simpatra .img-bk {
-                    -webkit-clip-path: polygon(0 0, 0 0%, -10% 100%, 175% 0);
-                    clip-path: polygon(0 0, 0 0%, -10% 100%, 175% 0);
-                }
-                .simpatra .img_bottom {
-                    -webkit-clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
-                    clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
-                }
-                .simpatra .footer-section .mt-bottom {
-                    margin-top: 150px;
-                }
-                .simpatra h1 {
-                    font-size: 42px;
-                }
-                .simpatra h2 {
-                    font-size: 40px;
-                }
-                .simpatra .head-section p {
-                    font-size: 16px;
-                }
-                .comp-grap-mt {
-                    margin-top: -20vw;
-                }
-                .comp-grph-hr-mt {
-                    margin-top: -20vw;
-                }
-                .simpatra .section-container.drive-container {
-                    margin-top: 70px;
-                }
-            }
-            /* md */
-            
-            @media (min-width: 768px) and (max-width: 991px) {
-                .hidden-md {
-                    display: none;
-                }
-                .visible-md {
-                    display: block;
-                }
-                .simpatra .display-flex-mdcenter-smblock {
-                    display: flex;
-                    justify-content: center;
-                    width: 100vw !important;
-                }
-                .simpatra .img-bk {
-                    -webkit-clip-path: polygon(0 0, 0 0%, 0% 100%, 175% 0);
-                    clip-path: polygon(0 0, 0 0%, 0% 100%, 175% 0);
-                }
-                .simpatra .img_bottom {
-                    -webkit-clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
-                    clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
-                }
-                .simpatra .footer-section .mt-bottom {
-                    margin-top: 200px;
-                }
-                .simpatra h1 {
-                    font-size: 36px;
-                }
-                .simpatra h2 {
-                    font-size: 34px;
-                }
-                .simpatra .head-section p {
-                    font-size: 16px;
-                }
-                .comp-grap-mt {
-                    margin-top: -16vw;
-                }
-                .comp-grph-hr-mt {
-                    margin-top: -18vw;
-                }
-                .simpatra .section-container.drive-container {
-                    margin-top: 70px;
-                }
-            }
-            /* sm */
-            
-            @media (min-width: 576px) and (max-width: 767px) {
-                .hidden-sm {
-                    display: none;
-                }
-                .visible-sm {
-                    display: block;
-                }
-                .simpatra .display-flex-mdcenter-smblock {
-                    display: contents;
-                }
-                .simpatra .img-bk {
-                    -webkit-clip-path: none;
-                    clip-path: none;
-                }
-                .simpatra .img_bottom {
-                    -webkit-clip-path: none;
-                    clip-path: none;
-                }
-                .simpatra .product-img {
-                    width: 100%;
-                }
-                .simpatra .section-container {
-                    margin-top: 70px;
-                }
-                .simpatra h1 {
-                    font-size: 36px;
-                }
-                .simpatra h2 {
-                    font-size: 34px;
-                }
-                .simpatra .head-section p {
-                    font-size: 16px;
-                }
-                .comp-grap-mt {
-                    margin-top: -30vw;
-                }
-                .comp-grph-hr-mt {
-                    margin-top: -20vw;
-                }
-            }
-            /* xm */
-            
-            @media (max-width: 575px) {
-                .hidden-xs {
-                    display: none;
-                }
-                .visible-xs {
-                    display: block;
-                }
-                .simpatra .display-flex-mdcenter-smblock {
-                    display: contents;
-                }
-                .simpatra .img-bk {
-                    -webkit-clip-path: none;
-                    clip-path: none;
-                }
-                .simpatra .img_bottom {
-                    -webkit-clip-path: none;
-                    clip-path: none;
-                }
-                .simpatra .product-img {
-                    width: 100%;
-                }
-                .simpatra .section-container {
-                    margin-top: 70px;
-                }
-                .simpatra h1 {
-                    font-size: 36px;
-                }
-                .simpatra h2 {
-                    font-size: 34px;
-                }
-                .simpatra .head-section p {
-                    font-size: 16px;
-                }
-                .comp-grap-mt {
-                    margin-top: -30vw;
-                }
-                .comp-grph-hr-mt {
-                    margin-top: -20vw;
-                }
-            }
-            
-            *,
-            *:before,
-            *:after {
-                box-sizing: border-box;
-            }
-            
-            .simpatra nav {
-                padding: 20px 0 40px 0;
-                font-size: 12px;
-            }
-            
-            .simpatra nav .navbar-left {
-                float: left;
-                padding: 0px;
-            }
-            
-            .simpatra nav .navbar-right {
-                float: right;
-                padding: 0px;
-            }
-            
-            .simpatra nav ul li {
-                display: inline;
-                padding-left: 15px;
-            }
-            
-            .simpatra nav ul li a {
-                color: #fff;
-                text-decoration: none;
-                font-family: Montserrat-Light;
-            }
-            
-            .simpatra nav ul li a:hover {
-                color: black;
-            }
-            
-            .simpatra .badge {
-                background-color: #a462c5;
-                border-radius: 10px;
-                color: white;
-                display: inline-block;
-                font-size: 12px;
-                line-height: 1;
-                padding: 3px 7px;
-                text-align: center;
-                vertical-align: middle;
-                white-space: nowrap;
-                margin-bottom: 30px;
-            }
-            
-            .simpatra .shopping-cart {
-                margin: 20px 0;
-                float: right;
-                background: white;
-                width: 320px;
-                position: relative;
-                border-radius: 3px;
-                padding: 20px;
-            }
-            
-            .simpatra .shopping-cart .shopping-cart-header {
-                border-bottom: 1px solid #E8E8E8;
-                padding-bottom: 15px;
-            }
-            
-            .simpatra .shopping-cart .shopping-cart-header .shopping-cart-total {
-                float: right;
-            }
-            
-            .simpatra .shopping-cart .shopping-cart-items {
-                padding-top: 20px;
-            }
-            
-            .simpatra .shopping-cart .shopping-cart-items li {
-                margin-bottom: 18px;
-                list-style: none;
-                border-bottom: 1px dashed;
-                padding: 10px 0px;
-            }
-            
-            .simpatra .shopping-cart .shopping-cart-items img {
-                float: left;
-                margin-right: 12px;
-                width: 50px;
-            }
-            
-            .simpatra .shopping-cart .shopping-cart-items .item-name {
-                display: block;
-                padding-top: 10px;
-                font-size: 16px;
-                color: rgb(226, 111, 43);
-                ;
-            }
-            
-            .simpatra .shopping-cart .shopping-cart-items .item-price {
-                color: rgb(226, 111, 43);
-                ;
-                margin-right: 8px;
-            }
-            
-            .simpatra .shopping-cart .shopping-cart-items .item-quantity {
-                color: #ABB0BE;
-            }
-            
-            .simpatra .shopping-cart:after {
-                bottom: 100%;
-                left: 89%;
-                border: solid transparent;
-                content: " ";
-                height: 0;
-                width: 0;
-                position: absolute;
-                pointer-events: none;
-                border-bottom-color: white;
-                border-width: 8px;
-                margin-left: -8px;
-            }
-            
-            .simpatra .cart-icon {
-                color: #515783;
-                font-size: 24px;
-                margin-right: 7px;
-                float: left;
-            }
-            
-            .simpatra .cart-img {
-                width: 25px;
-                margin-bottom: 15px;
-            }
-            
-            .simpatra .shopping-cart-container {
-                position: absolute;
-                top: 130px;
-                right: 0px;
-                z-index: 1;
-            }
-            
-            .simpatra .button {
-                background: rgb(226, 111, 43);
-                ;
-                color: white;
-                text-align: center;
-                padding: 12px;
-                text-decoration: none;
-                display: block;
-                border-radius: 3px;
-                font-size: 16px;
-                margin: 25px 0 15px 0;
-            }
-            
-            .simpatra .button:hover {
-                background: rgb(226, 111, 43);
-                ;
-            }
-            
-            .simpatra .clearfix:after {
-                content: "";
-                display: table;
-                clear: both;
-            }
-            /* navbar style end */
-            
-            .simpatra .logo {
-                width: 200px;
-                margin: 0px 15px;
-            }
-            
-            .simpatra .sheet {
-                position: absolute;
-                display: flex;
-                width: 100%;
-                top: 0px;
-                left: 0px;
-                height: 100%;
-            }
-            
-            .simpatra .tile {
-                position: relative;
-            }
-            
-            .simpatra .img-bk {
-                width: 100%;
-                height: 650px;
-            }
-            
-            .simpatra .product-img {
-                overflow: hidden;
-                height: fit-content;
-                width: auto;
-                padding: 0px 10px;
-            }
-            
-            .simpatra .img-Directory {
-                width: 100%;
-            }
-            
-            .simpatra .comp-img {
-                width: 100%;
-                z-index: 1;
-            }
-            
-            .simpatra .play-icon-img {
-                width: 8vw;
-            }
-            
-            .simpatra .main-comp-container {
-                position: relative;
-            }
-            
-            .simpatra .play-icon-img-container {
-                position: absolute;
-                top: 45%;
-                left: 45%;
-                z-index: 1;
-            }
-            
-            .img-DriveTraffic {
-                width: 100%;
-            }
-            
-            .img_bottom {
-                width: 100%;
-                height: 650px;
-            }
-            
-            .simpatra .text-white h1,
-            .simpatra .text-white h2,
-            .simpatra .text-white h3,
-            .simpatra .text-white h4,
-            .simpatra .text-white h5,
-            .simpatra .text-white h6,
-            .simpatra .text-white p,
-            .simpatra .text-white span {
-                color: #fff;
-            }
-            
-            .simpatra .text-lightBlue {
-                font-family: Montserrat-ExtraLight;
-                color: rgb(149, 182, 206);
-            }
-            
-            .row.row-flex {
-                display: flex;
-                justify-content: center;
-            }
-            
-            .simpatra .btn {
-                text-decoration: none;
-                color: #fff;
-                background: rgba(140, 16, 191, 0.67);
-                padding: 20px 50px;
-                font-family: Montserrat-Bold;
-                border-radius: 0.5rem;
-            }
-            
-            .simpatra .btn:hover {
-                text-decoration: none;
-                color: #fff;
-            }
-            
-            .simpatra .product-btn {
-                text-decoration: none;
-                color: #fff;
-                background: rgb(226, 111, 43);
-                ;
-                padding: 10px 25px;
-                font-family: Montserrat-ExtraLight;
-                border-radius: 0.5rem;
-            }
-            
-            .simpatra .orange {
-                color: rgb(226, 111, 43);
-                ;
-            }
-            
-            .simpatra .font-bold {
-                font-family: Montserrat-Bold;
-            }
-            
-            .simpatra .font-light {
-                font-family: Montserrat-ExtraLight;
-            }
-            /* font sizing */
-            
-            .simpatra .section-container p {
-                font-size: 0.8rem;
-            }
-            
-            .horizontal-line hr {
-                margin-top: 50px;
-                border-top: 1px dashed #515c67;
-            }
+@font-face {
+    font-family: Montserrat-Black;
+    src: url(../style/fonts/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-BlackItalic;
+    src: url(../style/fonts/Montserrat-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../style/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-BoldItalic;
+    src: url(../style/fonts/Montserrat-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url(../style/fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-ExtraBoldItalic;
+    src: url(../style/fonts/Montserrat-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-ExtraLight;
+    src: url(../style/fonts/Montserrat-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-ExtraLightItalic;
+    src: url(../style/fonts/Montserrat-ExtraLightItalic.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Italic;
+    src: url(../style/fonts/Montserrat-Italic.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../style/fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-LightItalic;
+    src: url(../style/fonts/Montserrat-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../style/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-MediumItalic;
+    src: url(../style/fonts/Montserrat-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../style/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url(../style/fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-SemiBoldItalic;
+    src: url(../style/fonts/Montserrat-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Thin;
+    src: url(../style/fonts/Montserrat-Thin.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-ThinItalic;
+    src: url(../style/fonts/Montserrat-ThinItalic.ttf);
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    font-family: Montserrat-Bold;
+    font-weight: bold;
+}
+
+body p,
+body span,
+body a {
+    font-family: Montserrat-Regular;
+    color: #515c67;
+    letter-spacing: 0.1em;
+}
+
+body .simpatra {
+    color: #515c67;
+}
+
+body .simpatra .container-fluid,
+body .simpatra .container {
+    padding: 0px !important;
+}
+
+body .simpatra .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.simpatra .text-center {
+    padding: 0px 15px !important;
+}
+
+.section-copy {
+    margin-top: 130px;
+}
+
+
+/* navbar style start */
+
+.navbar-container .navbar {
+    font-size: 12px;
+    font-family: Montserrat-Light;
+}
+
+.navbar-container .main-nav {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 25px;
+}
+
+.navbar-container .nav-links,
+.navbar-container .logo {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-container .main-nav li {
+    text-align: center;
+    margin: 15px auto;
+    padding-left: 15px;
+    list-style: none;
+}
+
+.navbar-container .logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar-container .navbar-toggle {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+}
+
+.navbar-container #chkToggle {
+    display: none;
+}
+
+.navbar-container #chkToggle:checked+ul.main-nav {
+    display: block;
+}
+
+.simpatra nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Montserrat-Light;
+}
+
+.simpatra nav ul li a:hover {
+    color: #fff;
+}
+
+.cart-container {
+    margin-top: 1px !important;
+}
+
+@media screen and (min-width: 576px) {
+    .navbar-container .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+    .navbar-container #chkToggle:checked+ul.main-nav {
+        display: flex;
+    }
+    .navbar-container .main-nav {
+        display: flex;
+        margin-right: 20px;
+        flex-direction: row;
+        justify-content: flex-end;
+        position: absolute;
+        top: 20px;
+        right: 0px;
+    }
+    .navbar-container .nav-links {
+        margin-left: 40px;
+    }
+    .navbar-container .logo {
+        margin-top: 0;
+    }
+    .navbar-container .navbar-toggle {
+        display: none;
+    }
+    .navbar-container .logo:hover,
+    .navbar-container .nav-links:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+}
+
+
+/* navbar style start end */
+
+
+/* xl */
+
+@media (min-width: 1200px) {
+    .hidden-xl {
+        display: none;
+    }
+    .visible-xl {
+        display: block;
+    }
+    .simpatra .display-flex-mdcenter-smblock {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .simpatra .img-bk {
+        -webkit-clip-path: polygon(0 0, 0 0%, 0% 100%, 270% 0);
+        clip-path: polygon(0 0, 0 0%, 0% 100%, 270% 0);
+    }
+    .simpatra .img_bottom {
+        -webkit-clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .simpatra .footer-section .mt-bottom {
+        margin-top: 150px;
+    }
+    .simpatra h1 {
+        font-size: 58px;
+    }
+    .simpatra h2 {
+        font-size: 52px;
+    }
+    .simpatra .head-section p {
+        font-size: 18px;
+    }
+    .comp-grap-mt {
+        margin-top: -20vw;
+    }
+    .comp-grph-hr-mt {
+        margin-top: -13vw;
+    }
+    .simpatra .section-container.drive-container {
+        margin-top: 70px;
+    }
+}
+
+
+/* lg */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hidden-lg {
+        display: none;
+    }
+    .visible-lg {
+        display: block;
+    }
+    .simpatra .display-flex-mdcenter-smblock {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100vw !important;
+    }
+    .simpatra .img-bk {
+        -webkit-clip-path: polygon(0 0, 0 0%, -10% 100%, 175% 0);
+        clip-path: polygon(0 0, 0 0%, -10% 100%, 175% 0);
+    }
+    .simpatra .img_bottom {
+        -webkit-clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .simpatra .footer-section .mt-bottom {
+        margin-top: 150px;
+    }
+    .simpatra h1 {
+        font-size: 42px;
+    }
+    .simpatra h2 {
+        font-size: 40px;
+    }
+    .simpatra .head-section p {
+        font-size: 16px;
+    }
+    .comp-grap-mt {
+        margin-top: -20vw;
+    }
+    .comp-grph-hr-mt {
+        margin-top: -20vw;
+    }
+    .simpatra .section-container.drive-container {
+        margin-top: 70px;
+    }
+}
+
+
+/* md */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .hidden-md {
+        display: none;
+    }
+    .visible-md {
+        display: block;
+    }
+    .simpatra .display-flex-mdcenter-smblock {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100vw !important;
+    }
+    .simpatra .img-bk {
+        -webkit-clip-path: polygon(0 0, 0 0%, 0% 100%, 175% 0);
+        clip-path: polygon(0 0, 0 0%, 0% 100%, 175% 0);
+    }
+    .simpatra .img_bottom {
+        -webkit-clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(-130% 100%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .simpatra .footer-section .mt-bottom {
+        margin-top: 200px;
+    }
+    .simpatra h1 {
+        font-size: 36px;
+    }
+    .simpatra h2 {
+        font-size: 34px;
+    }
+    .simpatra .head-section p {
+        font-size: 16px;
+    }
+    .comp-grap-mt {
+        margin-top: -16vw;
+    }
+    .comp-grph-hr-mt {
+        margin-top: -18vw;
+    }
+    .simpatra .section-container.drive-container {
+        margin-top: 70px;
+    }
+}
+
+
+/* sm */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .hidden-sm {
+        display: none;
+    }
+    .visible-sm {
+        display: block;
+    }
+    .simpatra .display-flex-mdcenter-smblock {
+        display: contents;
+    }
+    .simpatra .img-bk {
+        -webkit-clip-path: none;
+        clip-path: none;
+    }
+    .simpatra .img_bottom {
+        -webkit-clip-path: none;
+        clip-path: none;
+    }
+    .simpatra .product-img {
+        width: 100%;
+    }
+    .simpatra .section-container {
+        margin-top: 70px;
+    }
+    .simpatra h1 {
+        font-size: 36px;
+    }
+    .simpatra h2 {
+        font-size: 34px;
+    }
+    .simpatra .head-section p {
+        font-size: 16px;
+    }
+    .comp-grap-mt {
+        margin-top: -30vw;
+    }
+    .comp-grph-hr-mt {
+        margin-top: -20vw;
+    }
+    .section-copy {
+        margin-top: 20vw;
+    }
+}
+
+
+/* xm */
+
+@media (max-width: 575px) {
+    .hidden-xs {
+        display: none;
+    }
+    .visible-xs {
+        display: block;
+    }
+    .simpatra .display-flex-mdcenter-smblock {
+        display: contents;
+    }
+    .simpatra .img-bk {
+        -webkit-clip-path: none;
+        clip-path: none;
+    }
+    .simpatra .img_bottom {
+        -webkit-clip-path: none;
+        clip-path: none;
+    }
+    .simpatra .product-img {
+        width: 100%;
+    }
+    .simpatra .section-container {
+        margin-top: 70px;
+    }
+    .simpatra h1 {
+        font-size: 36px;
+    }
+    .simpatra h2 {
+        font-size: 34px;
+    }
+    .simpatra .head-section p {
+        font-size: 16px;
+    }
+    .comp-grap-mt {
+        margin-top: -30vw;
+    }
+    .comp-grph-hr-mt {
+        margin-top: -20vw;
+    }
+    .simpatra .shopping-cart-container {
+        top: 200px !important;
+        left: 5px !important;
+        right: auto !important;
+    }
+    .navbar-container #chkToggle:checked+ul.main-nav {
+        transition: all 300ms cubic-bezier(.4, 0, .4, 1);
+    }
+    .navbar-container #chkToggle:checked+ul.main-nav {
+        -webkit-box-shadow: inset -8px 0px 15px -10px #1b242f;
+        box-shadow: inset -8px 0px 15px -10px #1b242f;
+        background-color: #48576a;
+        height: 100%;
+        left: 0px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        position: fixed;
+        z-index: 1050;
+        top: 0;
+        transition: all 300ms cubic-bezier(.4, 0, .4, 1);
+        width: 80vw;
+    }
+    .navbar-container .main-nav li {
+        text-align: center;
+        list-style: none;
+        padding: 25px 5px;
+        margin: -1px;
+        border-top: 1px solid #374458;
+        border-bottom: 1px solid #374458;
+    }
+    .section-copy {
+        margin-top: 20vw;
+    }
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.simpatra .badge {
+    background-color: #a462c5;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-bottom: 30px;
+}
+
+.simpatra .shopping-cart {
+    margin: 20px 0;
+    float: right;
+    background: white;
+    width: 320px;
+    position: relative;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.simpatra .shopping-cart .shopping-cart-header {
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 15px;
+}
+
+.simpatra .shopping-cart .shopping-cart-header .shopping-cart-total {
+    float: right;
+}
+
+.simpatra .shopping-cart .shopping-cart-items {
+    padding-top: 20px;
+}
+
+.simpatra .shopping-cart .shopping-cart-items li {
+    margin-bottom: 18px;
+    list-style: none;
+    border-bottom: 1px dashed;
+    padding: 10px 0px;
+}
+
+.simpatra .shopping-cart .shopping-cart-items img {
+    float: left;
+    margin-right: 12px;
+    width: 50px;
+}
+
+.simpatra .shopping-cart .shopping-cart-items .item-name {
+    display: block;
+    padding-top: 10px;
+    font-size: 16px;
+    color: rgb(226, 111, 43);
+    ;
+}
+
+.simpatra .shopping-cart .shopping-cart-items .item-price {
+    color: rgb(226, 111, 43);
+    ;
+    margin-right: 8px;
+}
+
+.simpatra .shopping-cart .shopping-cart-items .item-quantity {
+    color: #ABB0BE;
+}
+
+.simpatra .shopping-cart:after {
+    bottom: 100%;
+    left: 89%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: white;
+    border-width: 8px;
+    margin-left: -8px;
+}
+
+.simpatra .cart-icon {
+    color: #515783;
+    font-size: 24px;
+    margin-right: 7px;
+    float: left;
+}
+
+.simpatra .cart-img {
+    width: 25px;
+    margin-bottom: 5px;
+}
+
+.simpatra .shopping-cart-container {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    z-index: 1056;
+}
+
+.simpatra .button {
+    background: rgb(226, 111, 43);
+    ;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 25px 0 15px 0;
+}
+
+.simpatra .button:hover {
+    background: rgb(226, 111, 43);
+    ;
+}
+
+.simpatra .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.simpatra .logo {
+    width: 200px;
+    margin: 0px 15px;
+}
+
+.simpatra .sheet {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+}
+
+.simpatra .tile {
+    position: relative;
+}
+
+.simpatra .img-bk {
+    width: 100%;
+    height: 650px;
+}
+
+.simpatra .product-img {
+    overflow: hidden;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: auto;
+    padding: 0px 10px;
+}
+
+.simpatra .img-Directory {
+    width: 100%;
+}
+
+.simpatra .comp-img {
+    width: 100%;
+}
+
+.simpatra .play-icon-img {
+    width: 8vw;
+}
+
+.simpatra .main-comp-container {
+    position: relative;
+}
+
+.simpatra .play-icon-img-container {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.img-DriveTraffic {
+    width: 100%;
+}
+
+.img_bottom {
+    width: 100%;
+    height: 650px;
+}
+
+.simpatra .text-white h1,
+.simpatra .text-white h2,
+.simpatra .text-white h3,
+.simpatra .text-white h4,
+.simpatra .text-white h5,
+.simpatra .text-white h6,
+.simpatra .text-white p,
+.simpatra .text-white span {
+    color: #fff;
+}
+
+.simpatra .text-lightBlue {
+    font-family: Montserrat-ExtraLight;
+    color: rgb(149, 182, 206);
+}
+
+.row.row-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.simpatra .btn {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(140, 16, 191, 0.67);
+    padding: 20px 50px;
+    font-family: Montserrat-Bold;
+    border-radius: 0.5rem;
+}
+
+.simpatra .btn:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.simpatra .product-btn {
+    text-decoration: none;
+    color: #fff;
+    background: rgb(226, 111, 43);
+    ;
+    padding: 10px 25px;
+    font-family: Montserrat-ExtraLight;
+    border-radius: 0.5rem;
+}
+
+.simpatra .orange {
+    color: rgb(226, 111, 43);
+    ;
+}
+
+.simpatra .font-bold {
+    font-family: Montserrat-Bold;
+}
+
+.simpatra .font-light {
+    font-family: Montserrat-ExtraLight;
+}
+
+
+/* font sizing */
+
+.simpatra .section-container p {
+    font-size: 0.8rem;
+}
+
+.horizontal-line hr {
+    margin-top: 50px;
+    border-top: 1px dashed #515c67;
+}

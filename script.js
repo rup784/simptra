@@ -34,7 +34,7 @@ var simpatra = new Vue({
             $(document).ready(function() {
                 $('.your-class').slick({
                     dots: true,
-                    arrows: true,
+                    arrows: false,
                     infinite: true,
                     speed: 300,
                     slidesToShow: 1,

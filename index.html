@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -31,20 +32,19 @@
                     <img class="img-bk" src="Assets\OrangeBar.jpg" alt="orange">
                     <div class="sheet">
                         <div class="container-fluid navbar-container">
-                            <nav>
-                                <ul class="navbar-left">
-                                    <a class="nav-link px-1" href="#" rel="home">
-                                        <img class="logo" src="Assets\Simpatra_LogoTM_Wht%20copy.png">
-                                    </a>
-                                </ul>
 
-                                <ul class="navbar-right">
+                            <nav class="navbar">
+                                <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle"><i class="fa fa-bars"></i></label>
+                                <a class="nav-link px-1" href="#" rel="home">
+                                    <img class="logo" src="Assets\Simpatra_LogoTM_Wht%20copy.png">
+                                </a>
+                                <input type="checkbox" id="chkToggle"></input>
+                                <ul class="main-nav" id="js-menu">
                                     <li><a href="#">Features</a></li>
                                     <li><a href="#about">Pricing</a></li>
-                                    <li v-on:click="cartClick"><a href="#" id="cart"><i class="fa fa-shopping-cart"></i> Your Cart <img src="Assets\img_407019.png" class="cart-img"><span class="badge">3</span></a></li>
+                                    <li class="cart-container" v-on:click="cartClick"><a href="#" id="cart">Your Cart <img src="Assets\img_407019.png" class="cart-img"><span class="badge">3</span></a></li>
                                 </ul>
                             </nav>
-
                             <div class="shopping-cart-container">
                                 <div class="shopping-cart" style="display: none;">
 
@@ -74,10 +74,12 @@
                                     <a href="#" class="button">CHECKOUT</a>
                                 </div>
                             </div>
-                            <div class="container">
-                                <div class="col-12 text-white head-section text-center text-md-left" style="margin-top: 130px;">
-                                    <h1>Elevate <span class="font-light">Your</span><br> <span class="font-light">Practice</span> Effectively</h1>
-                                    <p>Add revenue to your practice. Utilize one platform<br class="visible-xl visible-lg hidden-sm hidden-xs visible-md"> and our technology to take your practice to the next level.<br class="visible-xl visible-lg hidden-sm hidden-xs visible-md">                                        Simpatra has created marketing tools and packages that<br class="visible-xl visible-lg hidden-sm hidden-xs visible-md"> work for you while you care for your patients.</p>
+                            <div class="container section-copy">
+                                <div class="col-12">
+                                    <div class="text-white head-section text-center text-md-left">
+                                        <h1>Elevate <span class="font-light">Your</span><br> <span class="font-light">Practice</span> Effectively</h1>
+                                        <p>Add revenue to your practice. Utilize one platform<br class="visible-xl visible-lg hidden-sm hidden-xs visible-md"> and our technology to take your practice to the next level.<br class="visible-xl visible-lg hidden-sm hidden-xs visible-md">                                            Simpatra has created marketing tools and packages that<br class="visible-xl visible-lg hidden-sm hidden-xs visible-md"> work for you while you care for your patients.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
